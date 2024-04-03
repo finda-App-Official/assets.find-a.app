@@ -1,0 +1,33 @@
+.finda {
+  animation: changeFont 20s infinite linear;
+}
+
+@keyframes changeFont {
+  0% {
+    font-family: "Arial";
+  }
+  5% {
+    font-family: "Bebas Neue";
+  }
+  10% {
+    font-family: "Butterfly Kids";
+  }
+  15% {
+    font-family: "Dancing Script";
+  }
+  20% {
+    font-family: "Pacifico";
+  }
+  25% {
+    font-family: "Playfair Display";
+  }
+  30% {
+    font-family: "Rubik Scribble";
+  }
+  35% {
+    font-family: "Tac One";
+  }
+  40% {
+    font-family: "Workbench";
+  }
+}
