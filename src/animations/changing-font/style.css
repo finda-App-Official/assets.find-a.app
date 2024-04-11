@@ -1,3 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(117.14deg, #0265b1 42.25%, #7b358c 72%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 50vw;
+  background-color: transparent;
+  > img {
+    aspect-ratio: 1/1;
+    height: 20vw;
+  }
+  > h1 {
+    font-size: 12vw;
+    animation: changeFont 20s forwards infinite;
+    color: white;
+    position: relative;
+  }
+}
 @keyframes changeFont {
   0% {
     font-family: "Arial", sans-serif;
