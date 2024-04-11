@@ -1,33 +1,32 @@
-.finda {
-  animation: changeFont 20s infinite linear;
-}
-
 @keyframes changeFont {
   0% {
-    font-family: "Arial";
-  }
-  5% {
-    font-family: "Bebas Neue";
+    font-family: "Arial", sans-serif;
   }
   10% {
-    font-family: "Butterfly Kids";
-  }
-  15% {
-    font-family: "Dancing Script";
+    font-family: "Bebas Neue", sans-serif;
   }
   20% {
-    font-family: "Pacifico";
-  }
-  25% {
-    font-family: "Playfair Display";
+    font-family: "Butterfly Kids", sans-serif;
   }
   30% {
-    font-family: "Rubik Scribble";
-  }
-  35% {
-    font-family: "Tac One";
+    font-family: "Dancing Script", sans-serif;
   }
   40% {
-    font-family: "Workbench";
+    font-family: "Pacifico", sans-serif;
+  }
+  50% {
+    font-family: "Playfair Display", sans-serif;
+  }
+  60% {
+    font-family: "Rubik Scribble", sans-serif;
+  }
+  70% {
+    font-family: "Tac One", sans-serif;
+  }
+  80% {
+    font-family: "Workbench", sans-serif;
+  }
+  90% {
+    font-family: "Times New Roman", Times, serif;
   }
 }
